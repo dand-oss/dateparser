@@ -26,8 +26,6 @@ setup(
     install_requires=[
         'python-dateutil',
         'pytz',
-        # https://bitbucket.org/mrabarnett/mrab-regex/issues/314/import-error-no-module-named
-        'regex !=2019.02.19,!=2021.8.27,<2022.3.15',
         'tzlocal',
     ],
     entry_points={
